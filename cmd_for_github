@@ -1,0 +1,17 @@
+# Command Line
+
+*Create a new repository on the command line*
+{code}
+echo "# Solar_System" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Pikachung/Solar_System.git
+git push -u origin master
+{code}
+
+*Push an existing repository from the command line*
+{code}
+git remote add origin https://github.com/Pikachung/Solar_System.git
+git push -u origin master
+{code}
